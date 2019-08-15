@@ -21,7 +21,7 @@ public class TestController {
 
         System.out.println(chatService.send());
 
-        System.out.println(chatService.send("superzhenzhen", "Happy Spring Festival!"));
+        System.out.println(chatService.send("superzhen", "Happy Spring Festival!"));
 
         try {
             chatService.sendWithError("No message");
